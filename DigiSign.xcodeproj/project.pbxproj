@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		075DDEB52B8FBB8B00668538 /* DigiSignApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075DDEB42B8FBB8B00668538 /* DigiSignApp.swift */; };
+		075DDEB72B8FBB8B00668538 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075DDEB62B8FBB8B00668538 /* ContentView.swift */; };
+		075DDEB92B8FBB8D00668538 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 075DDEB82B8FBB8D00668538 /* Assets.xcassets */; };
+		075DDEBC2B8FBB8D00668538 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 075DDEBB2B8FBB8D00668538 /* Preview Assets.xcassets */; };
+		075DDEBE2B8FBB8D00668538 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075DDEBD2B8FBB8D00668538 /* Persistence.swift */; };
+		075DDEC12B8FBB8D00668538 /* DigiSign.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 075DDEBF2B8FBB8D00668538 /* DigiSign.xcdatamodeld */; };
+		075DDECB2B8FBB8D00668538 /* DigiSignTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075DDECA2B8FBB8D00668538 /* DigiSignTests.swift */; };
+		075DDED52B8FBB8D00668538 /* DigiSignUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075DDED42B8FBB8D00668538 /* DigiSignUITests.swift */; };
+		075DDED72B8FBB8D00668538 /* DigiSignUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075DDED62B8FBB8D00668538 /* DigiSignUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		075DDEC72B8FBB8D00668538 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 075DDEA92B8FBB8B00668538 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 075DDEB02B8FBB8B00668538;
+			remoteInfo = DigiSign;
+		};
+		075DDED12B8FBB8D00668538 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 075DDEA92B8FBB8B00668538 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 075DDEB02B8FBB8B00668538;
+			remoteInfo = DigiSign;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		075DDEB12B8FBB8B00668538 /* DigiSign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigiSign.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		075DDEB42B8FBB8B00668538 /* DigiSignApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigiSignApp.swift; sourceTree = "<group>"; };
+		075DDEB62B8FBB8B00668538 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		075DDEB82B8FBB8D00668538 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		075DDEBB2B8FBB8D00668538 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		075DDEBD2B8FBB8D00668538 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		075DDEC02B8FBB8D00668538 /* DigiSign.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DigiSign.xcdatamodel; sourceTree = "<group>"; };
+		075DDEC62B8FBB8D00668538 /* DigiSignTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DigiSignTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		075DDECA2B8FBB8D00668538 /* DigiSignTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigiSignTests.swift; sourceTree = "<group>"; };
+		075DDED02B8FBB8D00668538 /* DigiSignUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DigiSignUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		075DDED42B8FBB8D00668538 /* DigiSignUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigiSignUITests.swift; sourceTree = "<group>"; };
+		075DDED62B8FBB8D00668538 /* DigiSignUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigiSignUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		075DDEAE2B8FBB8B00668538 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		075DDEC32B8FBB8D00668538 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		075DDECD2B8FBB8D00668538 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		075DDEA82B8FBB8B00668538 = {
+			isa = PBXGroup;
+			children = (
+				075DDEB32B8FBB8B00668538 /* DigiSign */,
+				075DDEC92B8FBB8D00668538 /* DigiSignTests */,
+				075DDED32B8FBB8D00668538 /* DigiSignUITests */,
+				075DDEB22B8FBB8B00668538 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		075DDEB22B8FBB8B00668538 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				075DDEB12B8FBB8B00668538 /* DigiSign.app */,
+				075DDEC62B8FBB8D00668538 /* DigiSignTests.xctest */,
+				075DDED02B8FBB8D00668538 /* DigiSignUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		075DDEB32B8FBB8B00668538 /* DigiSign */ = {
+			isa = PBXGroup;
+			children = (
+				075DDEB42B8FBB8B00668538 /* DigiSignApp.swift */,
+				075DDEB62B8FBB8B00668538 /* ContentView.swift */,
+				075DDEB82B8FBB8D00668538 /* Assets.xcassets */,
+				075DDEBD2B8FBB8D00668538 /* Persistence.swift */,
+				075DDEBF2B8FBB8D00668538 /* DigiSign.xcdatamodeld */,
+				075DDEBA2B8FBB8D00668538 /* Preview Content */,
+			);
+			path = DigiSign;
+			sourceTree = "<group>";
+		};
+		075DDEBA2B8FBB8D00668538 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				075DDEBB2B8FBB8D00668538 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		075DDEC92B8FBB8D00668538 /* DigiSignTests */ = {
+			isa = PBXGroup;
+			children = (
+				075DDECA2B8FBB8D00668538 /* DigiSignTests.swift */,
+			);
+			path = DigiSignTests;
+			sourceTree = "<group>";
+		};
+		075DDED32B8FBB8D00668538 /* DigiSignUITests */ = {
+			isa = PBXGroup;
+			children = (
+				075DDED42B8FBB8D00668538 /* DigiSignUITests.swift */,
+				075DDED62B8FBB8D00668538 /* DigiSignUITestsLaunchTests.swift */,
+			);
+			path = DigiSignUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		075DDEB02B8FBB8B00668538 /* DigiSign */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 075DDEDA2B8FBB8D00668538 /* Build configuration list for PBXNativeTarget "DigiSign" */;
+			buildPhases = (
+				075DDEAD2B8FBB8B00668538 /* Sources */,
+				075DDEAE2B8FBB8B00668538 /* Frameworks */,
+				075DDEAF2B8FBB8B00668538 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DigiSign;
+			productName = DigiSign;
+			productReference = 075DDEB12B8FBB8B00668538 /* DigiSign.app */;
+			productType = "com.apple.product-type.application";
+		};
+		075DDEC52B8FBB8D00668538 /* DigiSignTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 075DDEDD2B8FBB8D00668538 /* Build configuration list for PBXNativeTarget "DigiSignTests" */;
+			buildPhases = (
+				075DDEC22B8FBB8D00668538 /* Sources */,
+				075DDEC32B8FBB8D00668538 /* Frameworks */,
+				075DDEC42B8FBB8D00668538 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				075DDEC82B8FBB8D00668538 /* PBXTargetDependency */,
+			);
+			name = DigiSignTests;
+			productName = DigiSignTests;
+			productReference = 075DDEC62B8FBB8D00668538 /* DigiSignTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		075DDECF2B8FBB8D00668538 /* DigiSignUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 075DDEE02B8FBB8D00668538 /* Build configuration list for PBXNativeTarget "DigiSignUITests" */;
+			buildPhases = (
+				075DDECC2B8FBB8D00668538 /* Sources */,
+				075DDECD2B8FBB8D00668538 /* Frameworks */,
+				075DDECE2B8FBB8D00668538 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				075DDED22B8FBB8D00668538 /* PBXTargetDependency */,
+			);
+			name = DigiSignUITests;
+			productName = DigiSignUITests;
+			productReference = 075DDED02B8FBB8D00668538 /* DigiSignUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		075DDEA92B8FBB8B00668538 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					075DDEB02B8FBB8B00668538 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					075DDEC52B8FBB8D00668538 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 075DDEB02B8FBB8B00668538;
+					};
+					075DDECF2B8FBB8D00668538 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 075DDEB02B8FBB8B00668538;
+					};
+				};
+			};
+			buildConfigurationList = 075DDEAC2B8FBB8B00668538 /* Build configuration list for PBXProject "DigiSign" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 075DDEA82B8FBB8B00668538;
+			productRefGroup = 075DDEB22B8FBB8B00668538 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				075DDEB02B8FBB8B00668538 /* DigiSign */,
+				075DDEC52B8FBB8D00668538 /* DigiSignTests */,
+				075DDECF2B8FBB8D00668538 /* DigiSignUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		075DDEAF2B8FBB8B00668538 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				075DDEBC2B8FBB8D00668538 /* Preview Assets.xcassets in Resources */,
+				075DDEB92B8FBB8D00668538 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		075DDEC42B8FBB8D00668538 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		075DDECE2B8FBB8D00668538 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		075DDEAD2B8FBB8B00668538 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				075DDEBE2B8FBB8D00668538 /* Persistence.swift in Sources */,
+				075DDEB72B8FBB8B00668538 /* ContentView.swift in Sources */,
+				075DDEB52B8FBB8B00668538 /* DigiSignApp.swift in Sources */,
+				075DDEC12B8FBB8D00668538 /* DigiSign.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		075DDEC22B8FBB8D00668538 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				075DDECB2B8FBB8D00668538 /* DigiSignTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		075DDECC2B8FBB8D00668538 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				075DDED72B8FBB8D00668538 /* DigiSignUITestsLaunchTests.swift in Sources */,
+				075DDED52B8FBB8D00668538 /* DigiSignUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		075DDEC82B8FBB8D00668538 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 075DDEB02B8FBB8B00668538 /* DigiSign */;
+			targetProxy = 075DDEC72B8FBB8D00668538 /* PBXContainerItemProxy */;
+		};
+		075DDED22B8FBB8D00668538 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 075DDEB02B8FBB8B00668538 /* DigiSign */;
+			targetProxy = 075DDED12B8FBB8D00668538 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		075DDED82B8FBB8D00668538 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		075DDED92B8FBB8D00668538 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		075DDEDB2B8FBB8D00668538 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DigiSign/Preview Content\"";
+				DEVELOPMENT_TEAM = KP7W5J7MD9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Digi Signature";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 4.1;
+				PRODUCT_BUNDLE_IDENTIFIER = RepT.DigiSign;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		075DDEDC2B8FBB8D00668538 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DigiSign/Preview Content\"";
+				DEVELOPMENT_TEAM = KP7W5J7MD9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Digi Signature";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 4.1;
+				PRODUCT_BUNDLE_IDENTIFIER = RepT.DigiSign;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		075DDEDE2B8FBB8D00668538 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RepT.DigiSignTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DigiSign.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DigiSign";
+			};
+			name = Debug;
+		};
+		075DDEDF2B8FBB8D00668538 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RepT.DigiSignTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DigiSign.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DigiSign";
+			};
+			name = Release;
+		};
+		075DDEE12B8FBB8D00668538 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RepT.DigiSignUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DigiSign;
+			};
+			name = Debug;
+		};
+		075DDEE22B8FBB8D00668538 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RepT.DigiSignUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DigiSign;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		075DDEAC2B8FBB8B00668538 /* Build configuration list for PBXProject "DigiSign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				075DDED82B8FBB8D00668538 /* Debug */,
+				075DDED92B8FBB8D00668538 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		075DDEDA2B8FBB8D00668538 /* Build configuration list for PBXNativeTarget "DigiSign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				075DDEDB2B8FBB8D00668538 /* Debug */,
+				075DDEDC2B8FBB8D00668538 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		075DDEDD2B8FBB8D00668538 /* Build configuration list for PBXNativeTarget "DigiSignTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				075DDEDE2B8FBB8D00668538 /* Debug */,
+				075DDEDF2B8FBB8D00668538 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		075DDEE02B8FBB8D00668538 /* Build configuration list for PBXNativeTarget "DigiSignUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				075DDEE12B8FBB8D00668538 /* Debug */,
+				075DDEE22B8FBB8D00668538 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		075DDEBF2B8FBB8D00668538 /* DigiSign.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				075DDEC02B8FBB8D00668538 /* DigiSign.xcdatamodel */,
+			);
+			currentVersion = 075DDEC02B8FBB8D00668538 /* DigiSign.xcdatamodel */;
+			path = DigiSign.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 075DDEA92B8FBB8B00668538 /* Project object */;
+}
